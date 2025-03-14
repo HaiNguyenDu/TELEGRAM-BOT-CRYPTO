@@ -2,6 +2,7 @@
 import TelegramBot from 'node-telegram-bot-api';
 import connectDb from './config/database.js';
 import { botCommands } from './controller/bot-commands.js';
+import Trade from './model/trade-model.js';
 
 
 

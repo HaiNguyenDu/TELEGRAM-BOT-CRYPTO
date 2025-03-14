@@ -3,10 +3,9 @@ import { closeTranding, openTrading } from "./trade.js";
 var roomId =-4545085133;
 const listNumBer = []
 const listTrader ={
-  "JCK":32443687,
-  "Dionzsos":23106845,
-  "Crypto Surfer":22394266,
-  "HaiDangVN x10 x20 🇻🇳":65050077
+  "A":22247145,
+  "B":86334842,
+  "C":17780774,
 }
 
 
