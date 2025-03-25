@@ -12,9 +12,9 @@ export const getListCloseTrade= async (uid)=>{
                 if(!response.data.content) return
                 else return response.data.content
             })
-                if(!traderNickName) traderNickName = respone[0].traderNickName
-                if (!respone)break; 
-                if (respone.length == 0) break;
+            if (!respone)break; 
+            if (respone.length == 0) break;
+            if(traderNickName=="") traderNickName = respone[0].traderNickName
                 result = result.concat(respone)
     }
    
